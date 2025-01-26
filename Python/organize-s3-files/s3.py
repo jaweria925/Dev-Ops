@@ -31,7 +31,7 @@ if folder_name not in s3_objects_name_and_folder: # To check folder is exist or 
 
 
 for item in get_content:
-    obj_creation_date = item.get('LastModified').strftime("%Y-%m-%d %H:%M:%S") + "/"
+    obj_creation_date = item.get('LastModified').strftime("%Y-%m-%D %H:%M:%S") + "/"
     object_name = item.get("Key")
 
     if obj_creation_date == folder_name and "/" not in object_name:
