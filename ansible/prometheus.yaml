@@ -1,0 +1,27 @@
+groups:
+- name: prometheus alert example for high cpu
+  rules:
+  - alets: high cpu usage
+    expr: node_cpu_seconds_total{mode=”idle”} < 100
+    for: 5m
+    labels:
+      severity: warning
+    annotations:
+      summary: high cpu usage
+
+
+
+---
+groups:
+- name: instance down
+  rules:
+  - alets: instance down
+    expr: up == 0
+    for: 5m
+    labels:
+      severity: warning
+    annotations:
+      summary: instance is down please check
+
+
+---
