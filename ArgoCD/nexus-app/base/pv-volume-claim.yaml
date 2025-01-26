@@ -1,0 +1,14 @@
+#create persistent volume claim
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: nexus-vol-claim
+  namespace: nexus
+spec:
+  storageClassName: nexus-storage-class
+  accessModes:
+    - ReadWriteOnce
+  volumeMode: Filesystem
+  resources:
+    requests:
+      storage: 35Gi
