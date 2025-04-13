@@ -1,0 +1,19 @@
+{
+  "orders": [
+    {
+      "id": "1",
+      "item": "laptop",
+      "price": 50
+    },
+    {
+      "id": "2",
+      "item": "makeup kit",
+      "price": 100
+    },
+    {
+      "id": "8810",
+      "product": "laptop",
+      "quantity": 1
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "order-microservice",
+  "version": "1.0.0",
+  "description": "Order Microservice",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.1236.0",
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "serverless": "^3.38.0",
+    "serverless-offline": "^12.0.4"
+  },
+  "scripts": {
+    "start": "serverless offline start"
+  }
+}
