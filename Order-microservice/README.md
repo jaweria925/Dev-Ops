@@ -1,30 +1,12 @@
-# Order Service - Serverless with AWS Lambda (Python)
+# Order Service - Serverless with AWS Lambda 
 
-## Table of Contents
-1. [Overview](#overview)
-2. [Architecture](#architecture)
-3. [Technologies Used](#technologies-used)
-4. [Setup Instructions](#setup-instructions)
-5. [API Endpoints](#api-endpoints)
-6. [Environment Configuration](#environment-configuration)
-7. [Deployment](#deployment)
-8. [SQS Integration](#sqs-integration)
-9. [Permissions & IAM](#permissions--iam)
-10. [License](#license)
+
 
 ## Overview
 This is a serverless microservice built using AWS Lambda (Python), DynamoDB, and SQS. It allows you to create and retrieve product orders using a RESTful API deployed via API Gateway.
 
 ## Architecture
-```
-Client -> API Gateway -> AWS Lambda -> DynamoDB
-                           |
-                        (Optional)
-                          ↓
-                        Amazon SQS
-```
-> ✅ This architecture decouples order creation and background processing via SQS.
-
+![alt text](event-drivendiadream-1.png)
 ## Technologies Used
 - Python 3.9+
 - AWS Lambda
@@ -32,7 +14,7 @@ Client -> API Gateway -> AWS Lambda -> DynamoDB
 - Amazon SQS
 - API Gateway
 - Serverless Framework
-- boto3
+
 
 ## Setup Instructions
 
@@ -44,7 +26,7 @@ Client -> API Gateway -> AWS Lambda -> DynamoDB
 
 2. **Install dependencies:**
    ```bash
-   pip install -r requirements.txt
+
    ```
 
 3. **Install Serverless Framework (if not already):**
@@ -108,6 +90,5 @@ Your Lambda functions need the following IAM permissions:
 ```
 > Note: Replace `*` with specific resource ARNs in production.
 
-## License
-MIT License
+
 
