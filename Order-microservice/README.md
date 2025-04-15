@@ -8,7 +8,7 @@ This is a serverless microservice built using AWS Lambda (Python), DynamoDB, and
 ## Architecture
 ![alt text](event-drivendiadream-1.png)
 ## Technologies Used
-- Python 3.9+
+- node.js
 - AWS Lambda
 - AWS DynamoDB
 - Amazon SQS
@@ -26,7 +26,7 @@ This is a serverless microservice built using AWS Lambda (Python), DynamoDB, and
 
 2. **Install dependencies:**
    ```bash
-
+ npm install
    ```
 
 3. **Install Serverless Framework (if not already):**
