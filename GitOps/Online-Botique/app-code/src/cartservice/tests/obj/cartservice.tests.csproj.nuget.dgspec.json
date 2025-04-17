@@ -1,0 +1,173 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\Jaweria Aslam\\OneDrive\\Desktop\\Dev-main-folder\\Dev-Ops\\GitOps\\Online-Botique\\app-code\\src\\cartservice\\tests\\cartservice.tests.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\Jaweria Aslam\\OneDrive\\Desktop\\Dev-main-folder\\Dev-Ops\\GitOps\\Online-Botique\\app-code\\src\\cartservice\\src\\cartservice.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Jaweria Aslam\\OneDrive\\Desktop\\Dev-main-folder\\Dev-Ops\\GitOps\\Online-Botique\\app-code\\src\\cartservice\\src\\cartservice.csproj",
+        "projectName": "cartservice",
+        "projectPath": "c:\\Users\\Jaweria Aslam\\OneDrive\\Desktop\\Dev-main-folder\\Dev-Ops\\GitOps\\Online-Botique\\app-code\\src\\cartservice\\src\\cartservice.csproj",
+        "packagesPath": "C:\\Users\\Jaweria Aslam\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Jaweria Aslam\\OneDrive\\Desktop\\Dev-main-folder\\Dev-Ops\\GitOps\\Online-Botique\\app-code\\src\\cartservice\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jaweria Aslam\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Google.Cloud.SecretManager.V1": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Google.Cloud.Spanner.Data": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.59.0, )"
+            },
+            "Grpc.HealthCheck": {
+              "target": "Package",
+              "version": "[2.59.0, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\Jaweria Aslam\\OneDrive\\Desktop\\Dev-main-folder\\Dev-Ops\\GitOps\\Online-Botique\\app-code\\src\\cartservice\\tests\\cartservice.tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Jaweria Aslam\\OneDrive\\Desktop\\Dev-main-folder\\Dev-Ops\\GitOps\\Online-Botique\\app-code\\src\\cartservice\\tests\\cartservice.tests.csproj",
+        "projectName": "cartservice.tests",
+        "projectPath": "c:\\Users\\Jaweria Aslam\\OneDrive\\Desktop\\Dev-main-folder\\Dev-Ops\\GitOps\\Online-Botique\\app-code\\src\\cartservice\\tests\\cartservice.tests.csproj",
+        "packagesPath": "C:\\Users\\Jaweria Aslam\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Jaweria Aslam\\OneDrive\\Desktop\\Dev-main-folder\\Dev-Ops\\GitOps\\Online-Botique\\app-code\\src\\cartservice\\tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jaweria Aslam\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "c:\\Users\\Jaweria Aslam\\OneDrive\\Desktop\\Dev-main-folder\\Dev-Ops\\GitOps\\Online-Botique\\app-code\\src\\cartservice\\src\\cartservice.csproj": {
+                "projectPath": "c:\\Users\\Jaweria Aslam\\OneDrive\\Desktop\\Dev-main-folder\\Dev-Ops\\GitOps\\Online-Botique\\app-code\\src\\cartservice\\src\\cartservice.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.59.0, )"
+            },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.6.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "version": 2,
+  "dgSpecHash": "7voguLpCev8=",
+  "success": false,
+  "projectFilePath": "c:\\Users\\Jaweria Aslam\\OneDrive\\Desktop\\Dev-main-folder\\Dev-Ops\\GitOps\\Online-Botique\\app-code\\src\\cartservice\\tests\\cartservice.tests.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Grpc.Net.Client (>= 2.59.0)' for 'net8.0'.",
+      "libraryId": "Grpc.Net.Client",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.AspNetCore.TestHost (>= 8.0.0)' for 'net8.0'.",
+      "libraryId": "Microsoft.AspNetCore.TestHost",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.NET.Test.Sdk (>= 17.8.0)' for 'net8.0'.",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'xunit (>= 2.6.3)' for 'net8.0'.",
+      "libraryId": "xunit",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'xunit.runner.visualstudio (>= 2.5.5)' for 'net8.0'.",
+      "libraryId": "xunit.runner.visualstudio",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Grpc.AspNetCore (>= 2.59.0)' for 'net8.0'.",
+      "libraryId": "Grpc.AspNetCore",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Grpc.HealthCheck (>= 2.59.0)' for 'net8.0'.",
+      "libraryId": "Grpc.HealthCheck",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Extensions.Caching.StackExchangeRedis (>= 8.0.0)' for 'net8.0'.",
+      "libraryId": "Microsoft.Extensions.Caching.StackExchangeRedis",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Google.Cloud.Spanner.Data (>= 4.6.0)' for 'net8.0'.",
+      "libraryId": "Google.Cloud.Spanner.Data",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Npgsql (>= 8.0.1)' for 'net8.0'.",
+      "libraryId": "Npgsql",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Google.Cloud.SecretManager.V1 (>= 2.1.0)' for 'net8.0'.",
+      "libraryId": "Google.Cloud.SecretManager.V1",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
