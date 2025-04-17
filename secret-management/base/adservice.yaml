@@ -33,6 +33,11 @@ spec:
         env:
         - name: PORT
           value: "9555"
+        - name: STRIPE_SECRET_AWS
+          valueFrom:
+            secretKeyRef:
+              name: stripe-api-key
+              key: stripe-key
         resources:
           requests:
             cpu: 200m

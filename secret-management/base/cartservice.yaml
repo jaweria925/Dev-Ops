@@ -33,13 +33,11 @@ spec:
         env:
         - name: REDIS_ADDR
           value: "redis-cart:6379"
-        #resources:
-        #  requests:
-        #    cpu: 200m
-        #    memory: 64Mi
-        #  limits:
-        #    cpu: 300m
-        #    memory: 128Mi
+        - name: STRIPE_SECRET_AWS
+          valueFrom:
+            secretKeyRef:
+              name: stripe-api-key
+              key: stripe-key
         readinessProbe:
           initialDelaySeconds: 15
           grpc:

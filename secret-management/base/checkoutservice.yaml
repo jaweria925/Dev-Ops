@@ -50,6 +50,11 @@ spec:
             value: "currencyservice:7000"
           - name: CART_SERVICE_ADDR
             value: "cartservice:7070"
+          - name: STRIPE_SECRET_AWS
+          valueFrom:
+            secretKeyRef:
+              name: stripe-api-key
+              key: stripe-key
           #resources:
           #  requests:
           #    cpu: 100m
